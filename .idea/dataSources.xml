@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SQLite - database.sqlite" uuid="65b4d947-f5fd-4e1d-8c9f-aa3ff42e2fe9">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\benjamin.mpolokoso\PhpstormProjects\KushaKash2\database\database.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>
