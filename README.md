@@ -17,6 +17,7 @@ This project includes a script to install GitHub Copilot CLI, which provides AI-
 
 Before installing GitHub Copilot CLI, ensure you have:
 - GitHub CLI (`gh`) installed. If not, install it from: https://cli.github.com/
+- GitHub CLI authenticated. Run `gh auth login` if you haven't already
 - A GitHub account with Copilot access
 
 ### Installation

@@ -19,6 +19,16 @@ echo "GitHub CLI version:"
 gh --version
 echo ""
 
+# Check if user is authenticated
+echo "Checking GitHub CLI authentication..."
+if ! gh auth status &> /dev/null; then
+    echo "Warning: GitHub CLI is not authenticated."
+    echo "Please run 'gh auth login' first to authenticate."
+    exit 1
+fi
+echo "Authentication verified."
+echo ""
+
 # Install GitHub Copilot CLI extension
 echo "Installing GitHub Copilot CLI extension..."
 gh extension install github/gh-copilot
