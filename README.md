@@ -81,7 +81,7 @@ Before you begin, ensure you have the following installed:
 
 ### Laravel Spark
 
-This application uses Laravel Spark for SaaS functionality. Make sure to configure Spark settings according to your needs in the `config/spark.php` file.
+This application uses Laravel Spark for SaaS functionality. Spark configuration is typically handled through environment variables and the Spark service provider. Refer to the [Laravel Spark documentation](https://spark.laravel.com/docs) for detailed configuration options.
 
 ### Application Settings
 
@@ -122,12 +122,6 @@ npm run watch
 ```
 
 ### Running Tests
-
-```bash
-php artisan test
-```
-
-Or with PHPUnit directly:
 
 ```bash
 vendor/bin/phpunit
